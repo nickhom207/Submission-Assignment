@@ -27,29 +27,4 @@ public class You{
 
 	// Write your code here
 	
-	You()
-	{
-		firstName = "Nicholas";
-		lastName = "Hom";
-		favoriteAnimal = "Rabbit";
-		age = 17;
-	}
-	
-	String getFullName()
-	{
-		return firstName + " " + lastName;
-	}
-	
-	String setFavoriteAnimal(String animal)
-	{
-		favoriteAnimal = animal;
-		return favoriteAnimal;
-	}
-	
-	int happyBirthday()
-	{
-		System.out.println("Happy Birthday!");
-		age++;
-		return age;
-	}
 }
